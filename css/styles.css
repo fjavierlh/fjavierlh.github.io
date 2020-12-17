@@ -2,8 +2,8 @@ body {
  font-family: monospace;
 }
 
-#site-title {
-  display: block;
-  Martín: 0 auto;
+#site-title span {
+   font-size: .7em;
+   color: #333;
 }
 
