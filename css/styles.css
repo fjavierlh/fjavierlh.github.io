@@ -2,9 +2,13 @@ body {
  font-family: monospace;
 }
 
+#site-title {
+   text-align: center;
+}
+
 #site-title span {
    display: block;
-   font-size: .6em;
+   font-size: .7em;
    color: #808080;
 }
 
