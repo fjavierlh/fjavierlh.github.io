@@ -3,7 +3,8 @@ body {
 }
 
 #site-title span {
-   font-size: .2em;
-   color: #ededed;
+   display: block;
+   font-size: .5em;
+   color: #808080;
 }
 
