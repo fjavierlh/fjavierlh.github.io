@@ -2,8 +2,8 @@ body {
  font-family: monospace;
 }
 
-#site-title.span {
+#site-title span {
    font-size: .2em;
-   color: #333;
+   color: #ededed;
 }
 
