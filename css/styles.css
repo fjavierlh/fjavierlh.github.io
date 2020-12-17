@@ -1,0 +1,8 @@
+body {
+ font-family: monospace;
+}
+
+#site-title span {
+  display: block;
+}
+
