@@ -29,3 +29,9 @@ p {
    font-size: 1.5em;
    line-height: 2em;
 }
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
