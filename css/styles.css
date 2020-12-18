@@ -12,3 +12,11 @@ body {
    color: #808080;
 }
 
+#menu {
+   display: block;
+}
+
+#menu li {
+   display: inline-block;
+   decoration: none;
+}
