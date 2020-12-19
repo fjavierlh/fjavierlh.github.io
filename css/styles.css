@@ -16,17 +16,18 @@ body {
    color: #808080;
 }
 
-#menu {
+#menu ul {
    display: block;
-}
-
-#menu li {
-   display: inline-block;
    margin: 0;
+   padding: 0;
    decoration: none;
 }
 
-#menu li a {
+#menu ul li {
+  display: inline-block;
+}
+
+#menu ul li a {
    display: block;
    width: 5em;
    pagging: 1em 2em;
@@ -35,7 +36,7 @@ body {
    background-color: #000;
 }
 
-#menu li a:hover {
+#menu ul li a:hover {
    background-color: #808080;
 }
 
