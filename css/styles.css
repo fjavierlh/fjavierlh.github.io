@@ -22,7 +22,19 @@ body {
 
 #menu li {
    display: inline-block;
+   margin: 0;
    decoration: none;
+}
+
+#menu li a {
+   pagging: .5em;
+   font-size:1.2;
+   color: #fff;
+   background-color: #000;
+}
+
+#menu li a:hover {
+   background-color: #808080;
 }
 
 p {
