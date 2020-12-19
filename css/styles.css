@@ -27,6 +27,7 @@ body {
 }
 
 #menu li a {
+   display: block;
    width: 5em;
    pagging: 1em 2em;
    font-size:1.6;
