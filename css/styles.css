@@ -27,8 +27,9 @@ body {
 }
 
 #menu li a {
-   pagging: .5em;
-   font-size:1.2;
+   width: 5em;
+   pagging: 1em 2em;
+   font-size:1.6;
    color: #fff;
    background-color: #000;
 }
