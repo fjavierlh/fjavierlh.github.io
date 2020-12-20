@@ -14,68 +14,130 @@
 </head>
 
 <body>
-  <header>
+<div id="container">
+  <header id="site-header" class="__center">
+    <img id="brand" class="__center" src="img/myself.jpeg" alt="">
     <h1 id="site-title">
       fjavierlh's
       <span>personal site</span>
     </h1>
-  </header>
-  <nav id="menu">
+
+    <nav id="menu" class="__center">
     <ul>
-       <li><a href="#about">Hi!👋</a></li>
-       <li><a href="#portfolio">My work</a></li>
-       <li><a href="#contact">Contact me</a></li>
+        <li><a href="#about"  >Hi!👋</a></li>
+        <li><a href="#portfolio" >My works 🛠️</a></li>
+        <li><a href="#contact" >A coffee? ☕</a></li>
     </ul>
-  </nav>
-    <article>
-     <section id="about">
-       <h2>Hi!👋</h2>
+  </nav><!-- Fin de #menu -->
+  </header><!-- Fin de #site-header -->
 
-       <p>I'm Javier López, Javi for Friends</p>
+  
+    
+  <article id="container">
 
-       <p>
-       Lorem ipsum dolor sit amet, consectetur 
-       adipiscing elit. Maecenas viverra nunc augue, 
-       nec mollis nisl malesuada et. Nulla tristique 
-       metus eu semper bibendum. Vestibulum ultricies 
-       ligula ut faucibus imperdiet. Duis pretium vel
-       it non scelerisque sollicitudin. Mauris ornare 
-       lobortis ornare. Duis ac vulputate est. Donec 
-       non justo in ex condimentum elementum.
-       </p>
-     </section>
-     <section id="portfolio">
-       <h2>My work 🛠️</h2>
-       <p>
-       Lorem ipsum dolor sit amet, consectetur 
-       adipiscing elit. Maecenas viverra nunc augue, 
-       nec mollis nisl malesuada et. Nulla tristique 
-       metus eu semper bibendum. Vestibulum ultricies 
-       ligula ut faucibus imperdiet. Duis pretium vel
-       it non scelerisque sollicitudin. Mauris ornare 
-       lobortis ornare. Duis ac vulputate est. Donec 
-       non justo in ex condimentum elementum.
-       </p>
-     </section>
-     <section id="contact">
-       <h2>Would you like a <br/>cup of coffee? ☕</h2>
-       <p>
-       Sed quis turpis non nulla dapibus accumsan. 
-       Phasellus eget nunc vitae nisl maximus tinc
-       idunt. Donec in aliquet nisi. Duis lobortis 
-       enim dui, ut gravida turpis aliquet ac. Sed 
-       ullamcorper eros dui, non imperdiet libero 
-       bibendum at. Aenean volutpat rhoncus effici
-       tur. Fusce libero justo, volutpat id euismo
-       d eget, maximus in eros. Mauris gravida arc
-       u sed metus luctus suscipit. Suspendisse pu
-       rus est, viverra a condimentum vitae, molli
-       s nec risus.
-       </p>
-     </section>
+    <section id="about">
+      <h2>Hi!👋</h2>
 
-    </article>
+      <p>
+        I'm Javier López
+      </p>
+
+      <p>
+      Lorem ipsum dolor sit amet, consectetur 
+      adipiscing elit. Maecenas viverra nunc augue, 
+      nec mollis nisl malesuada et. Nulla tristique 
+      metus eu semper bibendum. Vestibulum ultricies 
+      ligula ut faucibus imperdiet. Duis pretium vel
+      it non scelerisque sollicitudin. Mauris ornare 
+      lobortis ornare. Duis ac vulputate est. Donec 
+      non justo in ex condimentum elementum.
+      </p>
+    </section><!-- Fin de #about -->
+
+    <section id="portfolio">
+      <h2>My works 🛠️</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur 
+        adipiscing elit. Maecenas viverra nunc augue, 
+        nec mollis nisl malesuada et. Nulla tristique 
+        metus eu semper bibendum. Vestibulum ultricies 
+        ligula ut faucibus imperdiet. Duis pretium vel
+        it non scelerisque sollicitudin. Mauris ornare 
+        lobortis ornare. Duis ac vulputate est. Donec 
+        non justo in ex condimentum elementum.
+      </p>
+
+      <table id="works">
+        <tr>
+          <th>Project</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://github.com/fjavierlh/guia-social" target="_blank" rel="noopener noreferrer">
+            guia-social
+            </a>
+          </td>
+          <td>"Guía Social" nace con la ilusión de convertirse en un recurso
+            habitual de las profesionales de entidades y organizaciones del
+            Tercer Sector (Trabajadoras/es Sociales, Educadoras/es, Técnicos
+            de Integración Social, etc.)
+            Actualmente la aplicación está centada en el municipio de Madrid,
+            pero la intención es seguir ampliando la base de datos.</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://github.com/fjavierlh/pijus-magnificus-telegram-bot" target="_blank" rel="noopener noreferrer">
+            pijus-magnificus-telegram-bot
+            </a></td>
+          <td>This is a simple project for learning and fun.
+            It consist in a Telegram bot programming in Python,
+            to tribute Monthy Python comedy group and his character
+            Biggus Dickus (Pijus Magníficus in the spanish version)
+            from the film "Life of Brian".
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+            test-proyect
+            </a></td>
+          <td>Maecenas viverra nunc augue, 
+            nec mollis nisl malesuada et. Nulla tristique 
+            metus eu semper bibendum. Vestibulum ultricies 
+            ligula ut faucibus imperdiet.
+          </td>
+        </tr>
+      </table>
+
+      
+    </section><!-- Fin de #portfolio -->
+
+    <section id="contact">
+      <h2>Would you like a <br/>cup of coffee? ☕</h2>
+      <p>
+      Sed quis turpis non nulla dapibus accumsan. 
+      Phasellus eget nunc vitae nisl maximus tinc
+      idunt. Donec in aliquet nisi. Duis lobortis 
+      enim dui, ut gravida turpis aliquet ac. Sed 
+      ullamcorper eros dui, non imperdiet libero 
+      bibendum at. Aenean volutpat rhoncus effici
+      tur. Fusce libero justo, volutpat id euismo
+      d eget, maximus in eros. Mauris gravida arc
+      u sed metus luctus suscipit. Suspendisse pu
+      rus est, viverra a condimentum vitae, molli
+      s nec risus.
+      </p>
+    </section><!-- Fin de #contact -->
+
+    </article><!-- Fin de #main -->
+
     <aside></aside>
-    <footer></footer>
+
+    
+</div><!-- Fin de #container -->
+<div id="go-up">
+  <a href="#site-header">Go up</a>
+</div>
 </body>
 </html>

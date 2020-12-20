@@ -6,7 +6,23 @@ body {
    font-family: monospace;
 }
 
+#container {
+   display: block;
+   margin: 0 auto;
+   max-width: 75em;
+}
+
+#brand {
+   border-radius: 100%;
+   max-width: 10em;
+}
+
+#site-header {
+   background-color: #fff;
+}
+
 #site-title {
+   display: block;
    text-align: center;
 }
 
@@ -16,34 +32,95 @@ body {
    color: #808080;
 }
 
+#menu {
+   width: 25em;
+}
+
 #menu ul {
-   display: block;
-   margin: 0;
    padding: 0;
-   decoration: none;
+   width: 100%;
 }
 
 #menu ul li {
-  display: inline-block;
+   list-style: none;
+   text-align: center;
 }
 
 #menu ul li a {
    display: block;
-   width: 30vw;
-   padding: .2em .5em;
-   font-size: 1.5em;
+   margin-top: .3em;
    color: #fff;
    background-color: #000;
+   text-decoration: none;
+   padding: .6em 1em;
+   font-size: 1.7em;
+}
+
+
+#container {
+   display: block;
+   margin: 0 auto;
+   max-width: 50em;
+}
+
+#go-up a::before {
+   font-size: 1.2em;
+   position: relative;
+   top: .3em;
+   margin-right: .5em;
+   display: inline-block;
+   content: "˄";
 }
 
 #menu ul li a:hover {
    background-color: #808080;
 }
 
+#works {
+   width: 100%;
+   font-size: 1.2em;
+   border: .2em solid #000;
+}
+#works tr td{
+   width: 50%;
+   padding: 1em;
+   border: .1em solid #000;
+
+}
+
 p {
    font-size: 1.5em;
    line-height: 2em;
 }
+
+h2 {
+   margin: 2em 0 0 0;
+   font-size: 3em;
+}
+
+#go-up  {
+   position: sticky;
+   bottom: 2em;
+   float: right;
+   margin-right: 3em;
+   height: 1em;
+   background-color: #000;
+}
+
+#go-up a {
+   color: #fff;
+   background-color: #000;
+   text-decoration: none;
+   padding: .6em 1em;
+   font-size: 1.7em;
+}
+
+
+.__center {
+   display: block;
+   margin: 0 auto;
+}
+
 
 @media screen and (prefers-reduced-motion: reduce) {
 	html {
