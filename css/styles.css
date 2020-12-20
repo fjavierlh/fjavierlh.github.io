@@ -1,3 +1,6 @@
+/*----------------
+      GENERAL 
+------------------*/
 html {
    scroll-behavior: smooth;
 }
@@ -6,13 +9,30 @@ body {
    font-family: monospace;
 }
 
+p {
+   font-size: 1.5em;
+   line-height: 2em;
+}
+
+h2 {
+   margin: 2em 0 0 0;
+   font-size: 3em;
+}
+
+/*----------------
+      LAYOUT
+------------------*/
 #container {
    display: block;
    margin: 0 auto;
    max-width: 75em;
 }
 
+/*----------------
+      HEADER
+------------------*/
 #brand {
+   margin-top: 3em;
    border-radius: 100%;
    max-width: 10em;
 }
@@ -56,20 +76,11 @@ body {
    font-size: 1.7em;
 }
 
-
-#container {
-   display: block;
-   margin: 0 auto;
+/*----------------
+       MAIN
+------------------*/
+#main {
    max-width: 50em;
-}
-
-#go-up a::before {
-   font-size: 1.2em;
-   position: relative;
-   top: .3em;
-   margin-right: .5em;
-   display: inline-block;
-   content: "˄";
 }
 
 #menu ul li a:hover {
@@ -88,16 +99,9 @@ body {
 
 }
 
-p {
-   font-size: 1.5em;
-   line-height: 2em;
-}
-
-h2 {
-   margin: 2em 0 0 0;
-   font-size: 3em;
-}
-
+/*----------------
+    GO UP BUTTON
+------------------*/
 #go-up  {
    position: sticky;
    bottom: 2em;
@@ -115,13 +119,26 @@ h2 {
    font-size: 1.7em;
 }
 
+#go-up a::before {
+   font-size: 1.2em;
+   position: relative;
+   top: .3em;
+   margin-right: .5em;
+   display: inline-block;
+   content: "˄";
+}
 
+/*--------------
+  COMMON CLASSES
+----------------*/
 .__center {
    display: block;
    margin: 0 auto;
 }
 
-
+/*------------------
+  CSS MEDIA QUERIES
+-------------------*/
 @media screen and (prefers-reduced-motion: reduce) {
 	html {
 		scroll-behavior: auto;
